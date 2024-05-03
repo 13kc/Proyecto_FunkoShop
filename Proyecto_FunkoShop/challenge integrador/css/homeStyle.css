@@ -1,0 +1,149 @@
+/* CUERPO DEL HOME */
+body{
+    margin: 0;
+    margin-top: 90px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header-body-home{
+    background-image: url(../img/funkos-banner.webp);
+    height: 340px;
+    background-size: cover;
+    background-position: bottom;
+    /* filter: brightness(70%); */
+    color: white;
+    padding-left: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.contenedor-header-home{
+    display: block;
+}
+
+.contenedor-header-home h1{
+    margin-bottom: 0;
+}
+
+.contenedor-header-home h5{
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.contenedor-header-home button{
+    color: black;
+    background-color: white;
+    padding: 8px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.main-body-home{
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 1200px;
+}
+
+.imagen-funko{
+    height: 500px;
+}
+
+.funko{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-funko{
+    text-align: left;
+    justify-content: left;
+}
+
+.contenedor-funko h1{
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.contenedor-funko h5{
+    margin-top: 10px;
+    font-size: 18px;
+    color: gray;
+}
+
+.contenedor-funko hr{
+    margin-top: -15px;
+    margin-bottom: 30px;
+    border-color: red;
+}
+
+.contenedor-funko button{
+    padding: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 20px;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    border: none;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+/* FOOTER DEL BODY */
+
+.footer-body-home{
+    width: 1200px;
+    margin-top: 150px;
+}
+
+.contenedor-footer-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.funko-nuevo{
+    margin: 25px;
+}
+
+.funko-nuevo img{
+    height: 270px;
+    margin-bottom: 30px;
+}
+
+.funko-nuevo h3{
+    margin-top: -10px;
+    color: rgba(0, 0, 0, 0.735);
+}
+
+.funko-nuevo h4{
+    color: #2396cc;
+    font-weight: bold;
+}
+
+.nuevo{
+    background-color: red;
+    color: white;
+    width: fit-content;
+    padding: 8px;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-left: auto;
+}
+
+.contenedor-footer-body button{
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.284);
+    border-radius: 5px;
+}
+
